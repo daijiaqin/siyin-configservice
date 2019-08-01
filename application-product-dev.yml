@@ -2,4 +2,9 @@ server:
   port: 3001
 spring:
   application:
-    name: plat-service
+    name: product-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///siyin
+    password: root
+    username: root
