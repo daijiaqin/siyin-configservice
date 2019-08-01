@@ -1,0 +1,14 @@
+server:
+  port: 8000
+max-http-header-size: 1048576
+  tomcat: 
+    max-http-post-size: 1048576
+spring:
+  application:
+    name: siyin-common
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+  instance:
+    prefer-ip-address: true
