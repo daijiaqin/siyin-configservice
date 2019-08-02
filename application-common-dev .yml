@@ -5,7 +5,7 @@ max-http-header-size: 1048576
     max-http-post-size: 1048576
 spring:
   application:
-    name: common-service
+    name: application-common
 eureka:
   client:
     service-url:
