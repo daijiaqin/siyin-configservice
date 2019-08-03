@@ -9,4 +9,10 @@ zuul:
     plat:
       path: /plat/**
       serviceId: plat-service
+    product:
+      path: /product/**
+      serviceId: product-service
+    common:
+      path: /common/**
+      serviceId: common-service
   prefix: /services
